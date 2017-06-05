@@ -1,0 +1,39 @@
+h1 {
+  text-decoration: underline;
+}
+div {
+  font-size: 30px;
+  background-color: #000033;
+  border-style: solid;
+  padding: 20px;
+}
+h2 {
+    color: #D0F8FF;
+    text-shadow: 0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+             0 0 20px #A5F1FF, 0 0 30px #A5F1FF,
+             0 0 40px #A5F1FF;
+}
+p {
+  color: white;
+}
+#content{
+  text-align: justify;
+}
+#column_one {
+  float: left;
+  width: 40%;
+  padding: 5%;
+}
+#column_three{
+  width: 60%;
+  padding: 5%;
+}
+.content p:first-child {
+    font-style: italic;
+    color: #333333;
+}
+.content p:first-child:first-letter {
+    font-size: 250%;
+    margin: 10px 7px 0;
+    float: left;
+}
